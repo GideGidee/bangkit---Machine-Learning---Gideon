@@ -1,0 +1,4 @@
+customer = 18 missing values(done), duplicate data(done), inaccurate values(done)
+order = tipe data(done)
+product = duplicate data(done)
+sales = 19 missing values(done)

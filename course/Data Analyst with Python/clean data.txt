@@ -1,0 +1,30 @@
+dropping:
+drop/hapus data yang memiliki missing value
+syntax:
+import pandas as pd
+ 
+products_df = pd.read_csv("product.csv")
+ 
+products_df.dropna(axis=0, inplace=True)
+
+===================================================
+
+imputation:
+mengisi data yang memiliki missing value dengan mean, median, atau mode
+syntax:
+import pandas as pd
+ 
+data=pd.read_csv('employee_data.csv')
+ 
+data.age.fillna(value=data.age.mean(), inplace=True)
+
+===================================================
+
+interpolation:
+menghitung titik data baru berdasarkan range data yang sudah ada. Ketika menggunakan method ini, kita perlu mendefinisikan metode interpolasi yang ingin digunakan, seperti linear, polynomial, dll. Selain itu, kita juga perlu mendefinisikan parameter limit_direction (forward, backward, dan both) untuk menspesifikkan arah konstruktif dari proses interpolasi.
+syntax:
+import pandas as pd
+ 
+data=pd.read_csv('bbca_index.csv')
+ 
+data.close_price.interpolate(method='linear', limit_direction='forward', inplace=True)

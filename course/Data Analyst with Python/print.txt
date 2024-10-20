@@ -1,0 +1,1 @@
+cd /mnt/d/kuliah/bangkit/Data\ Analyst\ with\ Python/

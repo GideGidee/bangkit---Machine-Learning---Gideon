@@ -1,0 +1,3 @@
+cd /mnt/d/kuliah/bangkit/Python\ with\ OS/modul\ 4/
+cd /mnt/d/kuliah/bangkit/Python\ with\ OS/modul\ 6/
+cd /mnt/d/kuliah/bangkit/Data\ Analyst\ with\ Python/
